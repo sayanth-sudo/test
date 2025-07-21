@@ -1,9 +1,11 @@
 # Calorie Calculator
 
-This simple Python application calculates an estimate of daily calorie needs
-based on the Mifflin-St Jeor equation.
+This repository contains two implementations of a simple calorie calculator based on the Mifflin-St Jeor equation:
 
-## Usage
+* A command-line Python script.
+* A basic iOS application written in SwiftUI.
+
+## Python Script Usage
 
 ```bash
 python calorie_calculator.py --weight 70 --height 175 --age 30 --sex male --activity moderate
@@ -20,3 +22,8 @@ python calorie_calculator.py --weight 70 --height 175 --age 30 --sex male --acti
 `--activity` Activity level (`sedentary`, `light`, `moderate`, `active`, or `very_active`)
 
 The script outputs the estimated daily calorie requirement.
+
+## iOS Application
+
+The `ios` directory contains a minimal SwiftUI application that provides the same functionality on iPhone. Open the folder in Xcode and run the `CalorieCalculatorApp` target on a simulator or device.
+
