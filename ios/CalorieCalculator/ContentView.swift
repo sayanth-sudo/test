@@ -78,12 +78,3 @@ struct ContentView: View {
     }
 }
 
-@main
-struct CalorieCalculatorApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
-

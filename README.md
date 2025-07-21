@@ -25,5 +25,5 @@ The script outputs the estimated daily calorie requirement.
 
 ## iOS Application
 
-The `ios` directory contains a minimal SwiftUI application that provides the same functionality on iPhone. Open the folder in Xcode and run the `CalorieCalculatorApp` target on a simulator or device.
+The `ios` directory is a Swift Package that contains an iOS SwiftUI app. Open the `ios` folder in Xcode and run the **CalorieCalculator** scheme on a simulator or device.
 
